@@ -3,30 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>ZaharyBlog</title>
+    <script stc="scripts/jquery-3.1.1.js"></script>
     <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
-<body>
-<header>
+<br>
     <div id="navbar">
-        <div href="#" id="logo">MyBlog</div>
-        <div style="in">
-        <a href="#" id="login">Login</a>
-        <a href="#">Registrate</a>
-        <a href="#">Bg</a>
-        </div>
-
-
-
-
+        <a href="#" id="logo"> MyBlog Zahary </a>
     </div>
-sadsd
+    <form id="form">
+        <div id="divForm">
+        Username:
+        <input type="text" id="username" required="true" />
+        Password:
+         <input type="password" id="password" required="true"/>
+        <input type="submit" onclick="clickButton()" value="Login" id="button" >
+        </div>
+    </form>
+
+
+    <script>
+        clickButton()
+        {
+            alert("Hello")
+        }
+    </script>
+<section id="selection">
+    <dd>
+        <h1>Курс Software Technologies - юни 2016</h1>
+        <dl>
+Курсът "Software Technologies" дава начални познания по най-използваните
+софтуерни технологии в практиката и позволява на студентите да се ориентират
+кои технологии им харесват, за да ги изучават по-задълбочено. Изучават се базови
+концепции от front-end и back-end разработката. Курсът се състои от четири части:
+HTML5 разработка (HTML + CSS + JavaScript + AJAX + REST), PHP уеб разработка
+(PHP + MySQL), C# уеб разработка (ASP.NET MVC + Entity Framework + SQL Server) и
+Java уеб разработка (Java + Spring MVC + Hibernate + MySQL).
+            <a href="WebFundamentalCourse.html">read more...</a>
+        </dl>
+    </dd>
+</section>
+<br>
+<section id="selection2">
+    <dd>
+        <h1>Курс Software Technologies - юни 2016</h1>
+        <dl>
+            Курсът "Software Technologies" дава начални познания по най-използваните
+            софтуерни технологии в практиката и позволява на студентите да се ориентират
+            кои технологии им харесват, за да ги изучават по-задълбочено. Изучават се базови
+            концепции от front-end и back-end разработката. Курсът се състои от четири части:
+            HTML5 разработка (HTML + CSS + JavaScript + AJAX + REST), PHP уеб разработка
+            (PHP + MySQL), C# уеб разработка (ASP.NET MVC + Entity Framework + SQL Server) и
+            Java уеб разработка (Java + Spring MVC + Hibernate + MySQL).
+            <a href="WebFundamentalCourse.html">read more...</a>
+        </dl>
+    </dd>
+</section>
 
 </header>
 <main>
-    <div id="myPic">
-        <img src="me.png">
-    </div>
+
 </main>
-<footer></footer>
+<footer id="footer">
+   Zahary Todorov Blog
+</footer>
 </body>
 </html>
