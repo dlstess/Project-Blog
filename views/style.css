@@ -1,0 +1,44 @@
+#navbar{
+    background-color:rgba(133,133,133,0.23);
+    border-radius: 5px;
+    width:90%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+#logo {
+    height: 65px;
+    text-decoration: blink;
+
+    font-size: 50px;
+    margin-left: 20px;
+}
+#article{
+    background-color: rgba(133,133,133,0.23);
+}
+#footer{
+    background-color: rgba(133,133,133,0.23);
+    border:1px solid;
+    border-left: dashed;
+}
+form{
+
+    border: solid;
+}
+#username{
+    background-color: beige;
+}
+#password{
+    background-color: beige;
+}
+#selection{
+    background-color: rgba(133,133,133,0.23);
+    border-radius: 3px;
+    width: 90%;
+}
+#divForm{
+    margin:0 auto;
+    border: solid;
+    width: 50%;
+    
+}
