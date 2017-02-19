@@ -1,0 +1,6 @@
+
+function onClick()
+{
+    alert('hello');
+
+}
