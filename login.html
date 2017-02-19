@@ -11,6 +11,7 @@
     <meta name="Generator" content="sNews 1.5" />
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="rss/" />
+    <script type="javascript" src="scripts/login.js"></script>
 </head>
 <body>
 
@@ -19,21 +20,26 @@
         <div id="icons">
             <a href="/index.html" title="Home page"><img src="images/home.gif" alt="Home" /></a>
             <a href="/contact/" title="Contact us"><img src="images/contact.gif" alt="Contact" /></a>
-            <a href="login.html">Login</a>
-            <a href="registration.html">Registration</a>
+            <div id="login">
+                <a href="login.html">Login</a>
+                <a href="registration.html">Registration</a>
+            </div>
         </div>
-        <h1><a href="index.html">My Blog</a></h1>
+        <div id="logoPic">
+        <a href="index.html"><img src="images/5.jpg" alt=""/></a>
+        </div>
         <h2>Zahary Todorov</h2>
     </div>
 
 </div>
+<br>
 <form id="formLogin">
     <div id="formLoginDiv">
     Username:
     <input type="text" id="text" required="true" />
     Password:
     <input type="password" id="password"  required="true"/>
-    <input type="submit" id="button" value="Login" onclick="onClick()"/>
+    <input type="submit" id="button" onclick="loginClick()"  value="Login"/>
     </div>
 </form>
 
