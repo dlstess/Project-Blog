@@ -11,11 +11,14 @@
     <a href="#" id="logo"> MyBlog Zahary </a>
 </div>
 <form id="form">
-    <input type="text" id="username" required="true" /><br>
-    <input type="password" id="password" required="true"/><br>
-    <input type="submit" onclick="clickButton()" value="Login" id="button" >
+    <div id="divForm">
+        Username:
+        <input type="text" id="username" required="true" />
+        Password:
+        <input type="password" id="password" required="true"/>
+        <input type="submit" onclick="clickButton()" value="Login" id="button" >
+    </div>
 </form>
-
 <script>
     clickButton()
     {
