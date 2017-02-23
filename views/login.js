@@ -1,7 +1,7 @@
 function loginClick() {
-    let user=document.getElementById('text').value;
-    let password=document.getElementById('password').value;
-    console.log(user);
-    console.log('Zaho');
+    let username=$('#text').val();
+    let password=$('#password').val();
+    console.log(username);
+    console.log(password);
 }
-console.log('hi')
+

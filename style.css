@@ -74,7 +74,10 @@ hr { height: 1px; border-style: none; color: #d0d0d0; background-color: #C0C0C0;
 #footer .right  { float: right; text-align: right; background: #FFF; }
 #footer a { text-decoration: none; background: #FFF }
 #logo{
-	border: solid;
+	text-decoration: none;
+}
+#logoName{
+	text-decoration: none;
 }
 #text{
 	background-color: beige;
@@ -83,7 +86,48 @@ hr { height: 1px; border-style: none; color: #d0d0d0; background-color: #C0C0C0;
 	background-color: beige;
 }
 #formLoginDiv{
-	margin: 0 auto;
+	text-align: center;
 }
+footer{
+
+	text-align: center;
+	padding-right: 20px;
+}
+
+#formRegistration{
+text-align: center;
+}
+#passRegistration2{
+    margin-right: 35px;
+	background-color: beige;
+
+}
+#userRegistration{
+    margin-right: 3px;
+	background-color: beige;
+}
+#passRegistration{
+	background-color: beige;
+
+}
+#buttonRegistration{
+	margin-left: 50px;
+}
+#slogan{
+	display: none;
+}
+#pic{
+	display: none;
+}
+#menu{
+	display: none;
+}
+#prec{
+	display: none;
+}
+#ad{
+	display:none;
+}
+
 
 	
